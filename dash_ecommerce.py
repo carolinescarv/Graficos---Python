@@ -1,6 +1,5 @@
 import pandas as pd
 import plotly.express as px
-import matplotlib.pyplot as plt
 from dash import Dash, dcc, html, Input, Output
 
 #DEFINE VARIAVEIS
@@ -99,8 +98,7 @@ def grafico_regressao():
     return fig7
 
 
-
-
+#CRIAR APP
 def cria_app():
     app = Dash(__name__)
 
